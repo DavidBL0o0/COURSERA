@@ -1,0 +1,13 @@
+digraph {
+	A [label="Identify Data Sources"]
+	B [label="Make API Calls"]
+	C [label="Extract Data"]
+	D [label="Combine Data"]
+	E [label="Clean Data"]
+	F [label="Store Data"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
